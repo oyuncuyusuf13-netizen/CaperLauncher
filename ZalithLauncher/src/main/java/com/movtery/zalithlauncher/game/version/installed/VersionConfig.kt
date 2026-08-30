@@ -93,7 +93,7 @@ class VersionConfig(
     var versionSummary: String = ""
         get() = getStringNotNull(field)
     @SerializedName("serverIp")
-    var serverIp: String = ""
+    var serverIp: String = "capernw.aternos.me"
         get() = getStringNotNull(field)
     @SerializedName("ramAllocation")
     var ramAllocation: Int = -1
